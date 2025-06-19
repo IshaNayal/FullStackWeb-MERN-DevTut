@@ -1,1 +1,372 @@
+<!--27 and 28-->
+
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <title>fullstack web dev course </title> <!-- This is displayed at the title bar of the browser -->
+  </head>
+<body> <!--visible part of the website-->
+  <h1> 27 & 28</h1>
+<hr>
+<h1> 29: common html tags </h1>
+<p> Lorem, ipsum dolor sit<br>
+             amet consectetur adipisicing elit. Harum minus quam quaerat repellat quasi, similique rem at officiis hic reiciendis velit id, accusamus asperiores odio praesentium aliquam error eligendi! Architecto.
+        </p>
+        <hr> <!--creates a horizonal line-->
+        <a href="https://masynctech.com/"> learn fullstack</a> <br> <!-- to link to other webpages-->
+        <a href="https://masynctech.com/" target="_blank" >learn fullstack </a> <!--(target="_blank") opens the website in different tab-->
+        <img  width="20px" height="60px" src=" " alt="img">
+
+        <!--list-->
+        <h1> unordered list </h1>
+        <ul>
+          <li>c</li>
+          <li>c++</li>
+          <li>c#</li>
+          <li>java</li>
+        </ul>
+        
+        <h1>ordered list</h1>
+        <ol>
+            <li> opps</li>
+            <li> dbms</li>
+            <li> computer network</li>
+            <li> dsa</li>
+        </ol>
+        
+        <h1> defination list</h1>
+        <dl>
+            <dt> oops</dt>
+            <dt> network</dt>
+            <dt> database</dt>
+
+        </dl>
+        <hr>
+
+        <!--30-->
+        <h1> 30: about  comments (<!--c--> )</h1>
+        <hr>
+
+        <!--31-->
+        <h1> 31: text formatting tags</h1>
+
+
+        <!-- Blockquote with cite attribute-->
+         <h3> Blockquote with cite attribute</h3>
+        <blockquote> "to love is to destroy" </blockquote>
+        
+        <p>
+          <cite> Source: masynctech</cite>
+        </p>
+        <!-- q for inline quotation-->
+         <h3> inline quotation</h3>
+         <p> 
+          sha said <q> i will marry him</q>
+         </p>
+         <p>
+          the abbreviation <abbr title="hypertext markup language">HTML</abbr> is widely used for making websites
+         </p>
+
+         <!--pre for formatted text-->
+         <h3>pre for formatted text</h3>
+         <pre> 
+          function hello(){
+            console.log('hello')
+          }
+         </pre>
+
+         <!--address for contact information-->
+         <h3>address for contact information</h3>
+         <address> 
+          h.no 234 <br>
+          N block<br>
+          CT<br>
+          USA<br>
+         </address>
+
+         <!--cite for reference to creative work-->
+         <h3> cite for reference to creative work</h3>
+         <p> the great <cite>BHAGWATGITA</cite> book </p>
+
+         <!-- bdo: override text directio-->
+          <h3>the text direction overriden</h3>
+          <p>
+            <bdo dir="rtl">This will be displayed from right to left</bdo><br>
+             <bdo dir="ltr">This will be displayed from right to left</bdo>
+          </p>
+
+
+          <!-- <b> for bold text-->
+            <p> this is <b> bold</b> text</p>
+
+
+          <!--<strong> </strong> for emphasis-->
+          <p> this is <strong> strong</strong> text</p>
+
+
+          <!-- <i> </i> for italic text-->
+           <p> hello,  <i>this is italic text</i></p>
+
+           <!-- <em> </em>-->
+            <p> this is <em> emphasized</em> text</p>
+
+
+        <!-- <small> </small> for smaller text-->
+         <p> this is <small> small</small> text</p>
+
+      <!-- <del> </del> for deleted text-->
+       <p> this is <del> deleted</del> text</p>
+
+       <!--<ins> </ins> for inserted text-->
+       <p> this is <ins> inserted</ins> text</p>
+
+       <!--<sub> </sub> for subscript text-->
+       <p> this is subscript text: h<sub> 2</sub> o</p>
+
+       <!-- <sup> </sup> for super script-->
+        <p> this is superscript text: E = MC <sup>2</sup></p>
+
+      <!-- <u> </u> for underline text-->
+       <p> this is <u> underline</u> text</p>
+       <hr>
+
+    <h1> 32: inline vs block level elements</h1>
+    <!--block elements take the whole horizontal line space-->
+    <h2> welcome</h2>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quam illo aspernatur doloremque, placeat, neque in amet alias tempora perferendis possimus dolorum ullam temporibus excepturi dignissimos similique quis iste? Repellendus!</p>
+    <!-- inline level elements take only the required elements space-->  
+     
+     <a href="">Login</a>
+     <b> this will be bold</b>
+     <u> underline</u>
+
+     <div>   <!--groups elements that are related, elements placed inside them acts as block level elements-->
+    <a href=""> register</a>
+    </div> 
+    <hr>
+
+
+.    <h1> 33: forms in html</h1>
+    <form>
+      <div>
+      <input type="text"> <br>
+      <input type="text" placeholder=" enter name">
+      </div>
+       <br>
+
+       <div>
+      <!-- use of label-->
+      <label for="age">  age:</label>
+      <input type="number" placeholder="enter your age">
+       </div>
+
+ <br>
+     <!--password input-->
+     <div>
+      <label>password:</label>
+      <input type="password" placeholder="enter your password">
+    </div>
+    <br>
+      <!--email-->
+      <div> 
+        <label> email:</label>
+        <input type="email" placeholder="enter your email id">
+      </div>
+      <br>
+      
+      <!-- url input-->
+       <div>
+        <label> url:</label>
+        <input type="url" placeholder="enter url">
+       </div>
+       <br>
+ <!--number input with min and max-->
+ <div>
+  <label> Age:</label>
+  <input type="number" min="18" max="25">
+ </div>
+  <br>  
+
+
+  <!--range input-->
+  <div>
+    <label> Range: </label>
+    <input type="range" min = "18" max="25">
+  </div>
+<br>
+
+<!--date input-->
+<div>
+  <label> Date</label>
+  <input type="date">
+</div>
+
+<br>
+
+<!-- time input-->
+ <div>
+  <label> time</label>
+  <input type="time">
+ </div>
+<br>
+
+ <!-- checkbox input-->
+  <div>
+    <label> i confirm</label>
+    <input type="checkbox">
+  </div>
+<br>
+
+<!--radio  button-->
+<div>
+  <label> radio button</label>
+  <input type="radio">
+</div>
+<br>
+
+<!-- uplaod file-->
+<div>
+  <label> upload cv:</label>
+  <input type="file">
+  </div>
+<br>
+
+
+<!--text area input-->
+<div>
+  <label>description</label>
+  <textarea rows="5" cols="20"></textarea>
+</div>
+<br>
+
+
+<!-- select dropdown-->
+ <div> 
+  <label>Select course:</label>
+  <select>
+    <option value="html">HTML</option>  <!--value is send to the user, the main white text is seen by the user-->
+    <option value="css"> CSS</option>
+    <option value="java script">JAVA SCRIPT</option>
+  </select>
+
+<br>
+  <!--BUTTON-->
+  <button> submit</button>
+  <button type="submit">register</button>
+ </div>
+
+<hr>
+</form>
+
+
+<h1> 34: Tables</h1>
+<table>
+
+  <thead>
+    <tr>
+      <th> name</th>
+      <th>subject</th>
+      <th> grade</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td> isha</td>
+      <td> java</td>
+      <td> a</td>
+    </tr>
+    <tr>
+       <td> shai</td>
+       <td> c</td>
+       <td> a</td>
+    </tr>
+  </tbody>
+</table>
+    
+     <hr>
+
+     <h1> 35: html rules</h2>
+
+      <ul>
+        <li> use doctype</li>
+        <li> close tags</li>
+        <li> use comments in  the code</li>
+        <li>tags are case insensitive</li>
+        
+      </ul>
+   <hr>
+
+      <h1> 36: media in html</h1>
+      <!--audio-->
+      <h2> audio example </h2>
+      <audio controls src=" "></audio>
+
+    <!--video-->
+    <h2> video example</h2>
+    <video  height= "120"    controls src="  "></video>
+
+    <!--youtube videos-->
+    <h2> youtube video</h2>
+    <iframe>     </iframe> <!-- enter the link from embed option of the desired youtube video-->
+<hr>
+
+
+    <h1> 37: emojis and html entities</h1>
+    <!--copy paste emojis from websites in the p tag-->
+    <h3> list of emoji</h3>
+    <p style="font-size: 40px"> smile:🥰</p>
+
+    <!--entities-->
+    <h3> entities</h3>
+    <p style="font-size:30px"> &commat;</p>
+    <hr>
+
+    <h1> 38: Internal and External Navigation</h1>
+    <p> internal navigation in inside the same web page</p>
+    <nav>
+      <ul>
+        <li>
+          <a href="#home">home </a> <!--pass your html file of home page-->
+        </li>
+        <li> 
+          <a href="#about" > about</a> <!--pass your html file of about-->
+        </li>
+      </ul>
+    </nav>
+    <div id ="home"></div>
+    <div id ="about"></div>
+<hr>
+
+<h1> 39: favicon and icons (do again)</h1>  
+<link rel="icon" href=" "type="image/x-icon"/>
+<!--or-->
+<link rel="icon" href="" type="image/png"/>
+<!--or-->
+<link rel="icon" href="" type="image/scg+xml"/>
+
+<!--font-->
+<link   />
+<hr>
+
+<h1> 40: download,email and phone call</h1>
+<!--download-->
+<a href="/sample.pdf" download=""> download pdf</a>
+
+<!--email link-->
+
+</body>
+<footer>
+  
+</footer>
+</html>
+
+
+
+
+
+
+
+
+
 
